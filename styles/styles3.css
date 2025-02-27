@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.titulo {
+    font-size: 2.4rem;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.buscar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.btnBuscar {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inputBuscar {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+.navMenu {
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+a {
+    list-style: none;
+    margin: 0 10px;
+    color: #fff;
+}
+main {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+}
+aside {
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    height: 300px;
+}
+article {
+    margin: 0px;
+    padding: 0px;
+    background-color: #3d3939;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+.contacto {
+    display: flex;
+    align-items: center;
+}
+.tel {
+    margin-right: 20px;
+}
+.redes
+{
+    display: flex;
+    align-items: center;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    min-height: 200px;
+}
+.box1
+{
+    background-color: #2cc72c;
+}
+.box2
+{
+    background-color: #756eda;
+}
+.box3
+{
+    background-color: #a51212;
+}
